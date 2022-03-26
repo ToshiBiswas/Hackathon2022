@@ -3,6 +3,7 @@
 <Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -123,8 +124,8 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jScrollPane1" min="-2" pref="95" max="-2" attributes="0"/>
                           <Component id="jLayeredPane2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="149" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" max="-2" attributes="0"/>
@@ -147,7 +148,7 @@
                     <Property name="columns" type="int" value="20"/>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="ASDHIFLDS:KLFJSDKLFJ:SDJKFJSDKLFJD&#xa;SDFKJSDFLKSDJF:JSDFJKLSDJLFSDJLK:FJKLSDJLFSDKJLFKLJSDJKLFDSKJ:FKDLFKLSDJK:LFKDKSDFJLSJDF::::::::::JKHHSKLDFNKNSFNEKLSNFKLENWHOIPEWHHIBWJEOBJESJJSPOIBJOESJBOJEWOE"/>
+                    <Property name="text" type="java.lang.String" value="[Stuff about binary search trees]&#xa;...&#xa;..&#xa;...&#xa;....&#xa;....."/>
                   </Properties>
                 </Component>
               </SubComponents>

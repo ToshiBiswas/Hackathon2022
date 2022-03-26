@@ -41,6 +41,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
         panel3 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         panel2Button.setText("Lesson 2");
         panel2Button.addActionListener(new java.awt.event.ActionListener() {
@@ -72,7 +73,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jTextArea1.setColumns(20);
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("ASDHIFLDS:KLFJSDKLFJ:SDJKFJSDKLFJD\nSDFKJSDFLKSDJF:JSDFJKLSDJLFSDJLK:FJKLSDJLFSDKJLFKLJSDJKLFDSKJ:FKDLFKLSDJK:LFKDKSDFJLSJDF::::::::::JKHHSKLDFNKNSFNEKLSNFKLENWHOIPEWHHIBWJEOBJESJJSPOIBJOESJBOJEWOE");
+        jTextArea1.setText("[Stuff about binary search trees]\n...\n..\n...\n....\n.....");
         jScrollPane1.setViewportView(jTextArea1);
 
         jTextField1.setText("Node");
@@ -205,8 +206,8 @@ public class LearnJavaUI extends javax.swing.JFrame {
             .addGroup(panel1Layout.createSequentialGroup()
                 .addGap(15, 15, 15)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLayeredPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLayeredPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton1)
                 .addContainerGap(147, Short.MAX_VALUE))
