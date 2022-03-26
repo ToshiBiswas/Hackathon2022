@@ -1,6 +1,5 @@
 import java.awt.CardLayout;
 import java.util.Enumeration;
-
 import javax.swing.*;
 
 public class LearnJavaUI extends javax.swing.JFrame {
