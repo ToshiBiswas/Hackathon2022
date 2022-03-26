@@ -49,8 +49,12 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         panel2 = new javax.swing.JPanel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
+        jLabel9 = new javax.swing.JLabel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        jTextArea6 = new javax.swing.JTextArea();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextArea7 = new javax.swing.JTextArea();
+        jLabel13 = new javax.swing.JLabel();
         panel3 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -171,7 +175,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panel1Layout.createSequentialGroup()
                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
+                            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 277, Short.MAX_VALUE)
                             .addGroup(panel1Layout.createSequentialGroup()
                                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 0, Short.MAX_VALUE)))
@@ -217,12 +221,12 @@ public class LearnJavaUI extends javax.swing.JFrame {
                             .addGroup(panel1Layout.createSequentialGroup()
                                 .addGap(63, 63, 63)
                                 .addComponent(jButton2)))))
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addContainerGap(17, Short.MAX_VALUE))
             .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(panel1Layout.createSequentialGroup()
                     .addGap(16, 16, 16)
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 555, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(333, Short.MAX_VALUE)))
+                    .addContainerGap(308, Short.MAX_VALUE)))
         );
         panel1Layout.setVerticalGroup(
             panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -273,32 +277,74 @@ public class LearnJavaUI extends javax.swing.JFrame {
                 .addGroup(panel1Layout.createSequentialGroup()
                     .addGap(58, 58, 58)
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(419, Short.MAX_VALUE)))
+                    .addContainerGap(417, Short.MAX_VALUE)))
         );
 
         mainPanel.add(panel1, "panel1");
 
-        jTextArea2.setEditable(false);
-        jTextArea2.setColumns(20);
-        jTextArea2.setRows(5);
-        jTextArea2.setText("something something UML info");
-        jScrollPane2.setViewportView(jTextArea2);
+        panel2.setPreferredSize(new java.awt.Dimension(879, 588));
+
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel9.setText("Lesson 2: Binary Trees (Insertion)");
+
+        jTextArea6.setEditable(false);
+        jTextArea6.setColumns(20);
+        jTextArea6.setLineWrap(true);
+        jTextArea6.setRows(5);
+        jTextArea6.setText("Suppose we have an element and we want to insert it in a binary tree. It must taverse to the right spot. \n\nThe way it does this is by comparing the current node to the value we want to insert. If it is greater then \nwe go to the right child node. If it is smaller, then we go to its left node. We now check if the traversed \nnode is null. If it is then we create a node with this in our element, otherwise we will continue. \n\nLet's do an example. Say we have the following tree: ");
+        jTextArea6.setWrapStyleWord(true);
+        jScrollPane6.setViewportView(jTextArea6);
+
+        jTextArea7.setEditable(false);
+        jTextArea7.setColumns(20);
+        jTextArea7.setLineWrap(true);
+        jTextArea7.setRows(5);
+        jTextArea7.setText("We then go through the step-by-step procedure of inserting the number 16. We first go look at the root \nnode 12. Since 12>16, then we go to the right node. We now land in 20. Since 20<16, we go to the left \nnode. We now ask the viewer to click on the what the next correct step is and we tell them if they were \nright or wrong. We then show where it is inserted, and we create a new node in that position.");
+        jTextArea7.setWrapStyleWord(true);
+        jScrollPane7.setViewportView(jTextArea7);
+
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree-Correct.drawio.png"))); // NOI18N
+        jLabel13.setToolTipText("");
 
         javax.swing.GroupLayout panel2Layout = new javax.swing.GroupLayout(panel2);
         panel2.setLayout(panel2Layout);
         panel2Layout.setHorizontalGroup(
             panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel2Layout.createSequentialGroup()
-                .addGap(46, 46, 46)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(624, Short.MAX_VALUE))
+                .addGap(17, 17, 17)
+                .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panel2Layout.createSequentialGroup()
+                        .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(panel2Layout.createSequentialGroup()
+                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+            .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(panel2Layout.createSequentialGroup()
+                    .addGap(16, 16, 16)
+                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 555, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(308, Short.MAX_VALUE)))
         );
         panel2Layout.setVerticalGroup(
             panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel2Layout.createSequentialGroup()
-                .addGap(64, 64, 64)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(468, Short.MAX_VALUE))
+                .addGap(17, 17, 17)
+                .addComponent(jLabel9)
+                .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panel2Layout.createSequentialGroup()
+                        .addGap(182, 182, 182)
+                        .addComponent(jLabel13))
+                    .addGroup(panel2Layout.createSequentialGroup()
+                        .addGap(196, 196, 196)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(183, Short.MAX_VALUE))
+            .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(panel2Layout.createSequentialGroup()
+                    .addGap(58, 58, 58)
+                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(389, Short.MAX_VALUE)))
         );
 
         mainPanel.add(panel2, "panel2");
@@ -435,6 +481,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -442,19 +489,22 @@ public class LearnJavaUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JRadioButton jRadioButton3;
     private javax.swing.JRadioButton jRadioButton4;
-    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
     private javax.swing.JTextArea jTextArea5;
+    private javax.swing.JTextArea jTextArea6;
+    private javax.swing.JTextArea jTextArea7;
     private javax.swing.JPanel mainPanel;
     private javax.swing.JPanel panel1;
     private javax.swing.JButton panel1Button;
