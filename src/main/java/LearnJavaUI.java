@@ -137,7 +137,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel3.setText("Practice");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree.drawio (2).png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree-Practice 1.drawio.png"))); // NOI18N
         jLabel1.setToolTipText("");
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree-Wrong.drawio.png"))); // NOI18N
@@ -159,14 +159,14 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jTextArea4.setWrapStyleWord(true);
         jScrollPane4.setViewportView(jTextArea4);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree.drawio (2).png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree-Correct.drawio.png"))); // NOI18N
         jLabel5.setToolTipText("");
 
         jTextArea5.setEditable(false);
         jTextArea5.setColumns(20);
         jTextArea5.setLineWrap(true);
         jTextArea5.setRows(5);
-        jTextArea5.setText("However, this not a proper binary tree.  This is becauses 20 is the left child of 8 despite 20 being greater than 8!");
+        jTextArea5.setText("However, this not a proper binary tree.  This is becauses 20 is to the left of 8 despite 20 being greater than 8!");
         jTextArea5.setWrapStyleWord(true);
         jScrollPane5.setViewportView(jTextArea5);
 
@@ -189,7 +189,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
         TF2.add(jRadioButton4);
         jRadioButton4.setText("False");
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree-Wrong.drawio.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree-Practice 2.drawio.png"))); // NOI18N
         jLabel7.setToolTipText("");
 
         jLabel8.setText("True or false: this is a binary tree.");

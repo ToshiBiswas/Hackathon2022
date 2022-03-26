@@ -361,7 +361,7 @@
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/Resources/Tree.drawio (2).png"/>
+                  <Image iconType="3" name="/Resources/Tree-Practice 1.drawio.png"/>
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
@@ -415,7 +415,7 @@
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/Resources/Tree.drawio (2).png"/>
+                  <Image iconType="3" name="/Resources/Tree-Correct.drawio.png"/>
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
@@ -433,7 +433,7 @@
                     <Property name="columns" type="int" value="20"/>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="However, this not a proper binary tree.  This is becauses 20 is the left child of 8 despite 20 being greater than 8!"/>
+                    <Property name="text" type="java.lang.String" value="However, this not a proper binary tree.  This is becauses 20 is to the left of 8 despite 20 being greater than 8!"/>
                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                   </Properties>
                 </Component>
@@ -482,7 +482,7 @@
             <Component class="javax.swing.JLabel" name="jLabel7">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/Resources/Tree-Wrong.drawio.png"/>
+                  <Image iconType="3" name="/Resources/Tree-Practice 2.drawio.png"/>
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
