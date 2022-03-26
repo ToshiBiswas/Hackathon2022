@@ -75,7 +75,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jTextArea1.setColumns(20);
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("In this section, we talk about what a binary tree is. It is a hierarchical structure, and each node has one parent, and at least 2 children. \n\nThe top node with no parents is the root node, and it is the only one we have access to. \n\nThe nodes are ordered, and that all elements to the left of any node are smaller, and any elements to the right of the node is larger.");
+        jTextArea1.setText("However, this not a proper binary tree.  This is becauses 20 is the left child of 8 despite 20 being greater than 8!");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane1.setViewportView(jTextArea1);
 
@@ -87,7 +87,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
         });
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel2.setText("Lesson 1: Binary Search Trees (Introduction)");
+        jLabel2.setText("Lesson 1: Binary Trees (Introduction)");
 
         jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
@@ -97,7 +97,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree.drawio (2).png"))); // NOI18N
         jLabel1.setToolTipText("");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree.drawio (2).png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree-Wrong.drawio.png"))); // NOI18N
         jLabel4.setToolTipText("");
 
         jTextArea3.setEditable(false);
@@ -112,7 +112,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jTextArea4.setColumns(20);
         jTextArea4.setLineWrap(true);
         jTextArea4.setRows(5);
-        jTextArea4.setText("In this section, we talk about what a binary tree is. It is a hierarchical structure, and each node has one parent, and at least 2 children. \n\nThe top node with no parents is the root node, and it is the only one we have access to. \n\nThe nodes are ordered, and that all elements to the left of any node are smaller, and any elements to the right of the node is larger.");
+        jTextArea4.setText("This binary tree is correct. All elements to the left of any node are smaller and any to the right are larger.");
         jTextArea4.setWrapStyleWord(true);
         jScrollPane4.setViewportView(jTextArea4);
 

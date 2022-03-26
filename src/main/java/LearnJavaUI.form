@@ -198,7 +198,7 @@
                     <Property name="columns" type="int" value="20"/>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="In this section, we talk about what a binary tree is. It is a hierarchical structure, and each node has one parent, and at least 2 children. &#xa;&#xa;The top node with no parents is the root node, and it is the only one we have access to. &#xa;&#xa;The nodes are ordered, and that all elements to the left of any node are smaller, and any elements to the right of the node is larger."/>
+                    <Property name="text" type="java.lang.String" value="However, this not a proper binary tree.  This is becauses 20 is the left child of 8 despite 20 being greater than 8!"/>
                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                   </Properties>
                 </Component>
@@ -217,7 +217,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Lesson 1: Binary Search Trees (Introduction)"/>
+                <Property name="text" type="java.lang.String" value="Lesson 1: Binary Trees (Introduction)"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JSeparator" name="jSeparator1">
@@ -244,7 +244,7 @@
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/Resources/Tree.drawio (2).png"/>
+                  <Image iconType="3" name="/Resources/Tree-Wrong.drawio.png"/>
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
@@ -281,7 +281,7 @@
                     <Property name="columns" type="int" value="20"/>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="In this section, we talk about what a binary tree is. It is a hierarchical structure, and each node has one parent, and at least 2 children. &#xa;&#xa;The top node with no parents is the root node, and it is the only one we have access to. &#xa;&#xa;The nodes are ordered, and that all elements to the left of any node are smaller, and any elements to the right of the node is larger."/>
+                    <Property name="text" type="java.lang.String" value="This binary tree is correct. All elements to the left of any node are smaller and any to the right are larger."/>
                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                   </Properties>
                 </Component>
