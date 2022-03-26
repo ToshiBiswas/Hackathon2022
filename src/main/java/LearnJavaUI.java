@@ -21,12 +21,13 @@ public class LearnJavaUI extends javax.swing.JFrame {
         panel1Button = new javax.swing.JButton();
         panel3Button = new javax.swing.JButton();
         mainPanel = new javax.swing.JPanel();
-        panel2 = new javax.swing.JPanel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
         panel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
+        jLabel1 = new javax.swing.JLabel();
+        panel2 = new javax.swing.JPanel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
         panel3 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -54,6 +55,41 @@ public class LearnJavaUI extends javax.swing.JFrame {
 
         mainPanel.setLayout(new java.awt.CardLayout());
 
+        jTextArea1.setEditable(false);
+        jTextArea1.setColumns(20);
+        jTextArea1.setLineWrap(true);
+        jTextArea1.setRows(5);
+        jTextArea1.setText("ASDHIFLDS:KLFJSDKLFJ:SDJKFJSDKLFJD\nSDFKJSDFLKSDJF:JSDFJKLSDJLFSDJLK:FJKLSDJLFSDKJLFKLJSDJKLFDSKJ:FKDLFKLSDJK:LFKDKSDFJLSJDF::::::::::JKHHSKLDFNKNSFNEKLSNFKLENWHOIPEWHHIBWJEOBJESJJSPOIBJOESJBOJEWOE");
+        jScrollPane1.setViewportView(jTextArea1);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Screenshot (2).png"))); // NOI18N
+
+        javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
+        panel1.setLayout(panel1Layout);
+        panel1Layout.setHorizontalGroup(
+            panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panel1Layout.createSequentialGroup()
+                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panel1Layout.createSequentialGroup()
+                        .addGap(290, 290, 290)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(panel1Layout.createSequentialGroup()
+                        .addGap(74, 74, 74)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 696, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(58, Short.MAX_VALUE))
+        );
+        panel1Layout.setVerticalGroup(
+            panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(53, 53, 53)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(94, Short.MAX_VALUE))
+        );
+
+        mainPanel.add(panel1, "panel1");
+
         jTextArea2.setEditable(false);
         jTextArea2.setColumns(20);
         jTextArea2.setRows(5);
@@ -78,32 +114,6 @@ public class LearnJavaUI extends javax.swing.JFrame {
         );
 
         mainPanel.add(panel2, "panel2");
-
-        jTextArea1.setEditable(false);
-        jTextArea1.setColumns(20);
-        jTextArea1.setLineWrap(true);
-        jTextArea1.setRows(5);
-        jTextArea1.setText("ASDHIFLDS:KLFJSDKLFJ:SDJKFJSDKLFJD\nSDFKJSDFLKSDJF:JSDFJKLSDJLFSDJLK:FJKLSDJLFSDKJLFKLJSDJKLFDSKJ:FKDLFKLSDJK:LFKDKSDFJLSJDF::::::::::JKHHSKLDFNKNSFNEKLSNFKLENWHOIPEWHHIBWJEOBJESJJSPOIBJOESJBOJEWOE");
-        jScrollPane1.setViewportView(jTextArea1);
-
-        javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
-        panel1.setLayout(panel1Layout);
-        panel1Layout.setHorizontalGroup(
-            panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panel1Layout.createSequentialGroup()
-                .addGap(290, 290, 290)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(102, Short.MAX_VALUE))
-        );
-        panel1Layout.setVerticalGroup(
-            panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(296, Short.MAX_VALUE))
-        );
-
-        mainPanel.add(panel1, "panel1");
 
         javax.swing.GroupLayout panel3Layout = new javax.swing.GroupLayout(panel3);
         panel3.setLayout(panel3Layout);
@@ -202,6 +212,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTextArea jTextArea1;
