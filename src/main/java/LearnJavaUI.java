@@ -22,6 +22,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
 
         TF1 = new javax.swing.ButtonGroup();
         TF2 = new javax.swing.ButtonGroup();
+        LR1 = new javax.swing.ButtonGroup();
         panel1Button = new javax.swing.JButton();
         panel2Button = new javax.swing.JButton();
         panel3Button = new javax.swing.JButton();
@@ -52,9 +53,15 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         jScrollPane6 = new javax.swing.JScrollPane();
         jTextArea6 = new javax.swing.JTextArea();
-        jScrollPane7 = new javax.swing.JScrollPane();
-        jTextArea7 = new javax.swing.JTextArea();
         jLabel13 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTextArea8 = new javax.swing.JTextArea();
+        jLabel14 = new javax.swing.JLabel();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        jTextArea9 = new javax.swing.JTextArea();
+        jRadioButton5 = new javax.swing.JRadioButton();
+        jRadioButton6 = new javax.swing.JRadioButton();
+        jButton3 = new javax.swing.JButton();
         panel3 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -295,56 +302,104 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jTextArea6.setWrapStyleWord(true);
         jScrollPane6.setViewportView(jTextArea6);
 
-        jTextArea7.setEditable(false);
-        jTextArea7.setColumns(20);
-        jTextArea7.setLineWrap(true);
-        jTextArea7.setRows(5);
-        jTextArea7.setText("We then go through the step-by-step procedure of inserting the number 16. We first go look at the root \nnode 12. Since 12>16, then we go to the right node. We now land in 20. Since 20<16, we go to the left \nnode. We now ask the viewer to click on the what the next correct step is and we tell them if they were \nright or wrong. We then show where it is inserted, and we create a new node in that position.");
-        jTextArea7.setWrapStyleWord(true);
-        jScrollPane7.setViewportView(jTextArea7);
-
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree-Correct.drawio.png"))); // NOI18N
         jLabel13.setToolTipText("");
+
+        jTextArea8.setEditable(false);
+        jTextArea8.setColumns(20);
+        jTextArea8.setLineWrap(true);
+        jTextArea8.setRows(5);
+        jTextArea8.setText("We then go through the step-by-step procedure of inserting the number 16. We first go look at the root \nnode 13 Since 13>16, then we go to the right node. We now land in 17. Since 13<17, we go to the left node, 15. ");
+        jTextArea8.setWrapStyleWord(true);
+        jScrollPane8.setViewportView(jTextArea8);
+
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Tree-Correct.drawio.png"))); // NOI18N
+        jLabel14.setToolTipText("");
+
+        jTextArea9.setEditable(false);
+        jTextArea9.setColumns(20);
+        jTextArea9.setLineWrap(true);
+        jTextArea9.setRows(5);
+        jTextArea9.setText("We now ask the viewer to click on what whether 13 should be to the left of 15, or to the right.");
+        jTextArea9.setWrapStyleWord(true);
+        jScrollPane9.setViewportView(jTextArea9);
+
+        LR1.add(jRadioButton5);
+        jRadioButton5.setText("Left");
+
+        LR1.add(jRadioButton6);
+        jRadioButton6.setText("Right");
+
+        jButton3.setText("Check answer");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout panel2Layout = new javax.swing.GroupLayout(panel2);
         panel2.setLayout(panel2Layout);
         panel2Layout.setHorizontalGroup(
             panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel2Layout.createSequentialGroup()
-                .addGap(17, 17, 17)
                 .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panel2Layout.createSequentialGroup()
-                        .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(17, 17, 17)
+                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(panel2Layout.createSequentialGroup()
-                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addGap(119, 119, 119)
+                        .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panel2Layout.createSequentialGroup()
+                                .addGap(108, 108, 108)
+                                .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(panel2Layout.createSequentialGroup()
+                                        .addGap(20, 20, 20)
+                                        .addComponent(jRadioButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(jRadioButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(panel2Layout.createSequentialGroup()
+                                .addGap(175, 175, 175)
+                                .addComponent(jButton3)))))
+                .addContainerGap(150, Short.MAX_VALUE))
             .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(panel2Layout.createSequentialGroup()
                     .addGap(16, 16, 16)
                     .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 555, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(308, Short.MAX_VALUE)))
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         panel2Layout.setVerticalGroup(
             panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel2Layout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(jLabel9)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 193, Short.MAX_VALUE)
                 .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panel2Layout.createSequentialGroup()
-                        .addGap(182, 182, 182)
-                        .addComponent(jLabel13))
+                        .addComponent(jLabel13)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(panel2Layout.createSequentialGroup()
-                        .addGap(196, 196, 196)
-                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(183, Short.MAX_VALUE))
+                        .addComponent(jLabel14)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jRadioButton5)
+                            .addComponent(jRadioButton6))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton3)))
+                .addGap(52, 52, 52))
             .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(panel2Layout.createSequentialGroup()
                     .addGap(58, 58, 58)
                     .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(389, Short.MAX_VALUE)))
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
         mainPanel.add(panel2, "panel2");
@@ -430,6 +485,14 @@ public class LearnJavaUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        if (isSelected(LR1, "Left")) {
+            JOptionPane.showMessageDialog(null, "Correct!");
+        } else {
+            JOptionPane.showMessageDialog(null, "Incorrect! 13 < 15, so it should be on the left.");
+        }    
+    }//GEN-LAST:event_jButton3ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -476,12 +539,15 @@ public class LearnJavaUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.ButtonGroup LR1;
     private javax.swing.ButtonGroup TF1;
     private javax.swing.ButtonGroup TF2;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -494,17 +560,21 @@ public class LearnJavaUI extends javax.swing.JFrame {
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JRadioButton jRadioButton3;
     private javax.swing.JRadioButton jRadioButton4;
+    private javax.swing.JRadioButton jRadioButton5;
+    private javax.swing.JRadioButton jRadioButton6;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
     private javax.swing.JTextArea jTextArea5;
     private javax.swing.JTextArea jTextArea6;
-    private javax.swing.JTextArea jTextArea7;
+    private javax.swing.JTextArea jTextArea8;
+    private javax.swing.JTextArea jTextArea9;
     private javax.swing.JPanel mainPanel;
     private javax.swing.JPanel panel1;
     private javax.swing.JButton panel1Button;

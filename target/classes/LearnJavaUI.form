@@ -6,6 +6,8 @@
     </Component>
     <Component class="javax.swing.ButtonGroup" name="TF2">
     </Component>
+    <Component class="javax.swing.ButtonGroup" name="LR1">
+    </Component>
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
@@ -450,26 +452,48 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="17" pref="17" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="jLabel13" max="32767" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jScrollPane7" min="-2" pref="252" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="17" pref="17" max="-2" attributes="0"/>
                               <Component id="jLabel9" min="-2" pref="365" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel13" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane8" min="-2" pref="251" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="jLabel14" max="32767" attributes="0"/>
+                                              <Component id="jScrollPane9" min="-2" pref="251" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton5" min="-2" pref="98" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton6" min="-2" pref="98" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
                       </Group>
+                      <EmptySpace pref="175" max="32767" attributes="0"/>
                   </Group>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                           <Component id="jScrollPane6" min="-2" pref="555" max="-2" attributes="0"/>
-                          <EmptySpace pref="308" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -479,23 +503,33 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                       <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="196" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="182" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jScrollPane8" min="-2" pref="116" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="196" max="-2" attributes="0"/>
-                              <Component id="jScrollPane7" min="-2" pref="141" max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jScrollPane9" min="-2" pref="69" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jRadioButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="183" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
                           <Component id="jScrollPane6" min="-2" pref="141" max="-2" attributes="0"/>
-                          <EmptySpace pref="389" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -529,25 +563,6 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JScrollPane" name="jScrollPane7">
-              <AuxValues>
-                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-              </AuxValues>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-              <SubComponents>
-                <Component class="javax.swing.JTextArea" name="jTextArea7">
-                  <Properties>
-                    <Property name="editable" type="boolean" value="false"/>
-                    <Property name="columns" type="int" value="20"/>
-                    <Property name="lineWrap" type="boolean" value="true"/>
-                    <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="We then go through the step-by-step procedure of inserting the number 16. We first go look at the root &#xa;node 12. Since 12&gt;16, then we go to the right node. We now land in 20. Since 20&lt;16, we go to the left &#xa;node. We now ask the viewer to click on the what the next correct step is and we tell them if they were &#xa;right or wrong. We then show where it is inserted, and we create a new node in that position."/>
-                    <Property name="wrapStyleWord" type="boolean" value="true"/>
-                  </Properties>
-                </Component>
-              </SubComponents>
-            </Container>
             <Component class="javax.swing.JLabel" name="jLabel13">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
@@ -555,6 +570,76 @@
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea8">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="We then go through the step-by-step procedure of inserting the number 16. We first go look at the root &#xa;node 13 Since 13&gt;16, then we go to the right node. We now land in 17. Since 13&lt;17, we go to the left node, 15. "/>
+                    <Property name="wrapStyleWord" type="boolean" value="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Resources/Tree-Correct.drawio.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea9">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="We now ask the viewer to click on what whether 13 should be to the left of 15, or to the right."/>
+                    <Property name="wrapStyleWord" type="boolean" value="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton5">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="LR1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Left"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton6">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="LR1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Right"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Check answer"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
