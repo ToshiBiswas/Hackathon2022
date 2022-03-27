@@ -309,7 +309,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jTextArea8.setColumns(20);
         jTextArea8.setLineWrap(true);
         jTextArea8.setRows(5);
-        jTextArea8.setText("We then go through the step-by-step procedure of inserting the number 16. We first go look at the root \nnode 13 Since 13>16, then we go to the right node. We now land in 17. Since 13<17, we go to the left node, 15. ");
+        jTextArea8.setText("We then go through the step-by-step procedure of inserting the number 16. We first go look at the root node 13. Since 13>16, then we go to the right node. We now land in 17. Since 13<17, we go to the left node, 15. ");
         jTextArea8.setWrapStyleWord(true);
         jScrollPane8.setViewportView(jTextArea8);
 
@@ -320,7 +320,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
         jTextArea9.setColumns(20);
         jTextArea9.setLineWrap(true);
         jTextArea9.setRows(5);
-        jTextArea9.setText("We now ask the viewer to click on what whether 13 should be to the left of 15, or to the right.");
+        jTextArea9.setText("We now ask the viewer: should 13 be to the left of 15, or to the right?");
         jTextArea9.setWrapStyleWord(true);
         jScrollPane9.setViewportView(jTextArea9);
 
@@ -366,7 +366,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
                             .addGroup(panel2Layout.createSequentialGroup()
                                 .addGap(175, 175, 175)
                                 .addComponent(jButton3)))))
-                .addContainerGap(150, Short.MAX_VALUE))
+                .addContainerGap(175, Short.MAX_VALUE))
             .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(panel2Layout.createSequentialGroup()
                     .addGap(16, 16, 16)
@@ -378,7 +378,7 @@ public class LearnJavaUI extends javax.swing.JFrame {
             .addGroup(panel2Layout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(jLabel9)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 193, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 196, Short.MAX_VALUE)
                 .addGroup(panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panel2Layout.createSequentialGroup()
                         .addComponent(jLabel13)

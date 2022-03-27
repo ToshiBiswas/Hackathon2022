@@ -584,7 +584,7 @@
                     <Property name="columns" type="int" value="20"/>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="We then go through the step-by-step procedure of inserting the number 16. We first go look at the root &#xa;node 13 Since 13&gt;16, then we go to the right node. We now land in 17. Since 13&lt;17, we go to the left node, 15. "/>
+                    <Property name="text" type="java.lang.String" value="We then go through the step-by-step procedure of inserting the number 16. We first go look at the root node 13. Since 13&gt;16, then we go to the right node. We now land in 17. Since 13&lt;17, we go to the left node, 15. "/>
                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                   </Properties>
                 </Component>
@@ -611,7 +611,7 @@
                     <Property name="columns" type="int" value="20"/>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="We now ask the viewer to click on what whether 13 should be to the left of 15, or to the right."/>
+                    <Property name="text" type="java.lang.String" value="We now ask the viewer: should 13 be to the left of 15, or to the right?"/>
                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                   </Properties>
                 </Component>
